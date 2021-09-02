@@ -1,0 +1,68 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*****************************************************************************
+    CodeFlow Übung lev1_1: Events Intro
+*/
+#lev1_1 select {
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 2rem;
+    outline: 0;
+}
+
+/*****************************************************************************
+    CodeFlow Übung lev1_2: Events Datum
+*/
+
+/*****************************************************************************
+    CodeFlow Übung lev1_3: events
+*/
+#lev1_3 {
+    display: flex;
+}
+.card {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+/*****************************************************************************
+    CodeFlow Übung lev1_4: Events addEventListener
+*/
+
+/*****************************************************************************
+    CodeFlow Übung lev1_5: Events counter getElementById
+*/
+#lev1_5 {
+    margin: 0;
+    padding: 25px 50px;
+    font-family: "Lato", sans-serif;
+    /* font-size: 20pt; */
+    font-weight: normal;
+    background: linear-gradient(-90deg, #f6ad7b, #be7575);
+    /* margin: 100px auto; */
+    text-align: center;
+    width: 300px;
+}
+#lev1_5 button {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid #c2e8ce;
+    color: #c2e8ce;
+}
+
+/*****************************************************************************
+    CodeFlow Übung lev1_6: Events addEventListener("change")
+*/
+.selected {
+    background: gold;
+}
+.selected::before {
+    content: "* ";
+}
